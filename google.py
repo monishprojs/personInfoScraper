@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+person = "isaac newton"
+
 PATH = "/Users/harishgundluru/Downloads/chromedriver"
 driver = webdriver.Chrome(PATH)
 
@@ -15,7 +17,7 @@ print(driver.title)
 search = driver.find_element(By.NAME, "q")
 search.click()
 time.sleep(2)
-search.send_keys("isaac newton")
+search.send_keys(person)
 time.sleep(2)
 search.send_keys(Keys.RETURN)
 try:
