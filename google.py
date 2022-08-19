@@ -15,7 +15,7 @@ print(driver.title)
 search = driver.find_element(By.NAME, "q")
 search.click()
 time.sleep(2)
-search.send_keys("charles babbage")
+search.send_keys("isaac newton")
 time.sleep(2)
 search.send_keys(Keys.RETURN)
 try:
