@@ -1,4 +1,4 @@
-# googleScraper
+# personScraper
 
 What this does:
 - Returns info on a person using google to scrape the web
